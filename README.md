@@ -28,4 +28,4 @@ Optionally showing hidden files
 
 ### Stuff I won't be building but you could add if you want
 Anything else in classic Finder, because I don't have enough experience with it to know what I'm missing. If you code a solution to a missing feature, please push it my way!
-I'll make small improvements to code quality over time, but I'm not primarily a programmer so it would need outside help to significantly improve.
+I'll make small improvements to code quality over time, but I'm not primarily a programmer so the project would need outside help to significantly improve.
