@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		09924E802CF6A668009CD013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09924E662CF6A667009CD013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09924E6D2CF6A667009CD013;
+			remoteInfo = SpatialFolders;
+		};
+		09924E8A2CF6A668009CD013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09924E662CF6A667009CD013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09924E6D2CF6A667009CD013;
+			remoteInfo = SpatialFolders;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09924E6E2CF6A667009CD013 /* SpatialFolders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialFolders.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09924E7F2CF6A668009CD013 /* SpatialFoldersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialFoldersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09924E892CF6A668009CD013 /* SpatialFoldersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialFoldersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		09924E702CF6A667009CD013 /* SpatialFolders */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpatialFolders;
+			sourceTree = "<group>";
+		};
+		09924E822CF6A668009CD013 /* SpatialFoldersTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpatialFoldersTests;
+			sourceTree = "<group>";
+		};
+		09924E8C2CF6A668009CD013 /* SpatialFoldersUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SpatialFoldersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09924E6B2CF6A667009CD013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09924E7C2CF6A668009CD013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09924E862CF6A668009CD013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09924E652CF6A667009CD013 = {
+			isa = PBXGroup;
+			children = (
+				09924E702CF6A667009CD013 /* SpatialFolders */,
+				09924E822CF6A668009CD013 /* SpatialFoldersTests */,
+				09924E8C2CF6A668009CD013 /* SpatialFoldersUITests */,
+				09924E6F2CF6A667009CD013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09924E6F2CF6A667009CD013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09924E6E2CF6A667009CD013 /* SpatialFolders.app */,
+				09924E7F2CF6A668009CD013 /* SpatialFoldersTests.xctest */,
+				09924E892CF6A668009CD013 /* SpatialFoldersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09924E6D2CF6A667009CD013 /* SpatialFolders */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09924E932CF6A668009CD013 /* Build configuration list for PBXNativeTarget "SpatialFolders" */;
+			buildPhases = (
+				09924E6A2CF6A667009CD013 /* Sources */,
+				09924E6B2CF6A667009CD013 /* Frameworks */,
+				09924E6C2CF6A667009CD013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				09924E702CF6A667009CD013 /* SpatialFolders */,
+			);
+			name = SpatialFolders;
+			packageProductDependencies = (
+			);
+			productName = SpatialFolders;
+			productReference = 09924E6E2CF6A667009CD013 /* SpatialFolders.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09924E7E2CF6A668009CD013 /* SpatialFoldersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09924E962CF6A668009CD013 /* Build configuration list for PBXNativeTarget "SpatialFoldersTests" */;
+			buildPhases = (
+				09924E7B2CF6A668009CD013 /* Sources */,
+				09924E7C2CF6A668009CD013 /* Frameworks */,
+				09924E7D2CF6A668009CD013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09924E812CF6A668009CD013 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				09924E822CF6A668009CD013 /* SpatialFoldersTests */,
+			);
+			name = SpatialFoldersTests;
+			packageProductDependencies = (
+			);
+			productName = SpatialFoldersTests;
+			productReference = 09924E7F2CF6A668009CD013 /* SpatialFoldersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09924E882CF6A668009CD013 /* SpatialFoldersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09924E992CF6A668009CD013 /* Build configuration list for PBXNativeTarget "SpatialFoldersUITests" */;
+			buildPhases = (
+				09924E852CF6A668009CD013 /* Sources */,
+				09924E862CF6A668009CD013 /* Frameworks */,
+				09924E872CF6A668009CD013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09924E8B2CF6A668009CD013 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				09924E8C2CF6A668009CD013 /* SpatialFoldersUITests */,
+			);
+			name = SpatialFoldersUITests;
+			packageProductDependencies = (
+			);
+			productName = SpatialFoldersUITests;
+			productReference = 09924E892CF6A668009CD013 /* SpatialFoldersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09924E662CF6A667009CD013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					09924E6D2CF6A667009CD013 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					09924E7E2CF6A668009CD013 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 09924E6D2CF6A667009CD013;
+					};
+					09924E882CF6A668009CD013 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 09924E6D2CF6A667009CD013;
+					};
+				};
+			};
+			buildConfigurationList = 09924E692CF6A667009CD013 /* Build configuration list for PBXProject "SpatialFolders" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09924E652CF6A667009CD013;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09924E6F2CF6A667009CD013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09924E6D2CF6A667009CD013 /* SpatialFolders */,
+				09924E7E2CF6A668009CD013 /* SpatialFoldersTests */,
+				09924E882CF6A668009CD013 /* SpatialFoldersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09924E6C2CF6A667009CD013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09924E7D2CF6A668009CD013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09924E872CF6A668009CD013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09924E6A2CF6A667009CD013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09924E7B2CF6A668009CD013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09924E852CF6A668009CD013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09924E812CF6A668009CD013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09924E6D2CF6A667009CD013 /* SpatialFolders */;
+			targetProxy = 09924E802CF6A668009CD013 /* PBXContainerItemProxy */;
+		};
+		09924E8B2CF6A668009CD013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09924E6D2CF6A667009CD013 /* SpatialFolders */;
+			targetProxy = 09924E8A2CF6A668009CD013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09924E912CF6A668009CD013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09924E922CF6A668009CD013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		09924E942CF6A668009CD013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpatialFolders/SpatialFolders.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialFolders/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.leaferiksen.SpatialFolders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		09924E952CF6A668009CD013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpatialFolders/SpatialFolders.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpatialFolders/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.leaferiksen.SpatialFolders;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		09924E972CF6A668009CD013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.leaferiksen.SpatialFoldersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialFolders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialFolders";
+			};
+			name = Debug;
+		};
+		09924E982CF6A668009CD013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.leaferiksen.SpatialFoldersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpatialFolders.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpatialFolders";
+			};
+			name = Release;
+		};
+		09924E9A2CF6A668009CD013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.leaferiksen.SpatialFoldersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpatialFolders;
+			};
+			name = Debug;
+		};
+		09924E9B2CF6A668009CD013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.leaferiksen.SpatialFoldersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SpatialFolders;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09924E692CF6A667009CD013 /* Build configuration list for PBXProject "SpatialFolders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09924E912CF6A668009CD013 /* Debug */,
+				09924E922CF6A668009CD013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09924E932CF6A668009CD013 /* Build configuration list for PBXNativeTarget "SpatialFolders" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09924E942CF6A668009CD013 /* Debug */,
+				09924E952CF6A668009CD013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09924E962CF6A668009CD013 /* Build configuration list for PBXNativeTarget "SpatialFoldersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09924E972CF6A668009CD013 /* Debug */,
+				09924E982CF6A668009CD013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09924E992CF6A668009CD013 /* Build configuration list for PBXNativeTarget "SpatialFoldersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09924E9A2CF6A668009CD013 /* Debug */,
+				09924E9B2CF6A668009CD013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09924E662CF6A667009CD013 /* Project object */;
+}
