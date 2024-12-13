@@ -24,6 +24,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		098AD5FA2CF6AEAD00FEA837 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		098AD5FB2CF6AEAD00FEA837 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		09924E6E2CF6A667009CD013 /* SpatialFolders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialFolders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09924E7F2CF6A668009CD013 /* SpatialFoldersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialFoldersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09924E892CF6A668009CD013 /* SpatialFoldersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpatialFoldersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,8 @@
 		09924E652CF6A667009CD013 = {
 			isa = PBXGroup;
 			children = (
+				098AD5FA2CF6AEAD00FEA837 /* LICENSE */,
+				098AD5FB2CF6AEAD00FEA837 /* README.md */,
 				09924E702CF6A667009CD013 /* SpatialFolders */,
 				09924E822CF6A668009CD013 /* SpatialFoldersTests */,
 				09924E8C2CF6A668009CD013 /* SpatialFoldersUITests */,
