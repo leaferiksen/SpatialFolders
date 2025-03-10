@@ -1,7 +1,7 @@
 # SpatialFolders
 A macOS application designed to recreate the workflow of Finder in Classic Mac OS.
-It makes many opinionated, non-optional changes, including single click to open files and folders and eventually a dedicated selection.
-This was made by a young graphic designer with limited programming experience, and google's Gemini-exp-1121 model was used to help in the programming. If you are worried about the safety of your files, all the code that has been changed from Xcode's boilerplate is contained within ContentView.swift, SpacialFoldersApp.swift and SpatialFolders.entitlements. A swift programmer could read it all in about 10 minutes before trying it out.
+It makes many opinionated, non-optional changes, including single click to open files and folders.
+This was made by a designer with the programming help from google's Gemini-exp-1121 model. If you are worried about the safety of your files, all the code that has been changed from Xcode's boilerplate is contained within ContentView.swift, SpacialFoldersApp.swift and SpatialFolders.entitlements. A swift programmer could read it all in about 10 minutes before trying it out.
 
 ## Instalation
 Build in Xcode
