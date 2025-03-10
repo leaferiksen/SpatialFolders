@@ -4,7 +4,7 @@ It makes many opinionated, non-optional changes, including single click to open 
 This was made by a young graphic designer with limited programming experience, and google's Gemini-exp-1121 model was used to help in the programming. If you are worried about the safety of your files, all the code that has been changed from Xcode's boilerplate is contained within ContentView.swift, SpacialFoldersApp.swift and SpatialFolders.entitlements. A swift programmer could read it all in about 10 minutes before trying it out.
 
 ## Instalation
-Build in Xcode.
+Build in Xcode
 
 ## Planned Features
 ### File
